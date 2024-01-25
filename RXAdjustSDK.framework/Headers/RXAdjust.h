@@ -247,6 +247,12 @@ NS_ASSUME_NONNULL_BEGIN
 - (NSString *)adid;
 
 /**
+ * 获取adid
+ * 未初始化时调用
+ */
+- (NSString *)getAdidWithAppToken:(NSString *)appToken;
+
+/**
  * 设置外部设备 ID
  */
 - (void)setExternalDeviceId:(NSString *)deviceId;
