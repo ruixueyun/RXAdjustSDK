@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXAdjustSDK'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'ruixue RXAdjustSDK framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  s.dependency 'Adjust', '~> 4.33.3'
+  s.dependency 'Adjust'
   
 end
