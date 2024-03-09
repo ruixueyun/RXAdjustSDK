@@ -41,6 +41,6 @@ TODO: Add long description of the pod here.
   
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
   
-  s.dependency 'Adjust', '~> 4.33.3'
+  s.dependency 'Adjust'
   
 end
