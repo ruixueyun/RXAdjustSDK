@@ -249,8 +249,10 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 获取adid
  * 未初始化时调用
+ * @param delayStart 延迟启动时间，默认不延迟
  */
-- (NSString *)getAdidWithAppToken:(NSString *)appToken;
+- (NSString *)getAdidWithAppToken:(NSString *)appToken
+                       delayStart:(NSInteger)delayStart;
 
 /**
  * 设置外部设备 ID
