@@ -101,6 +101,14 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)trackEvent:(RXADJEvent *)event;
 
 /**
+ * 添加回传参数
+ * @param eventToken 事件 token
+ * @param params 回传参数
+ */
+- (void)addEventCallbackWithEventToken:(NSString *)eventToken
+                                params:(NSDictionary *)params;
+
+/**
  * 延迟启动
  * 默认情况下，Adjust SDK 会在应用打开时启动。如果您想通过会话参数发送的数据在应用打开时不可用，那么则可以延迟 SDK 启动。
  * 当您想发送唯一标识符等信息时，这一方法尤其有效。
